@@ -10,8 +10,15 @@ dependencies {
     // JUnit 5 의존성 추가
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+
+    // AssertJ 의존성 추가
+    testImplementation 'org.assertj:assertj-core:3.24.0'
 }
 
 test {
     useJUnitPlatform()
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
 }

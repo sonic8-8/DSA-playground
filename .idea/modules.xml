@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DSA-playground.iml" filepath="$PROJECT_DIR$/DSA-playground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DSA-playground.main.iml" filepath="$PROJECT_DIR$/.idea/modules/DSA-playground.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DSA-playground.test.iml" filepath="$PROJECT_DIR$/.idea/modules/DSA-playground.test.iml" />
     </modules>
   </component>
 </project>
